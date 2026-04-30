@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn_secondary{
+            padding: 8px;
+            border: none;
+            border-radius: 1em;
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="btn" >Enviar</button>
+    <button id="btn_secondary">Enviar secundario</button>
+
+    <script>
+        const btn = document.getElementById('btn')
+        btn.style.backgroundColor = '#ff9023'
+
+        const btn_secondary = document.getElementById('btn_secondary')
+        btn_secondary.style.backgroundColor = "#rr4653"
+        btn_secondary.classList.add('btn--secondary')
+        console.log(btn_secondary.classList)
+
+
+    </script>
+</body>
+</html>

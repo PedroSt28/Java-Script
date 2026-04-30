@@ -40,3 +40,13 @@ console.log(usuario.id)
 console.log(usuario.email)
 console.log(usuario.name)
 console.log(usuario.apresentar)
+//criar par chave:valor novo
+usuario.curso = "JavaScript"
+console.log(usuario)
+//editar par chave:valor
+usuario.curso = 'ReactJs'
+console.log(usuario)
+
+//remove
+delete usuario.curso
+console.log(usuario)
