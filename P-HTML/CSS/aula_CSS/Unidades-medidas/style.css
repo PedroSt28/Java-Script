@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(39, 39, 39);
+    color: antiquewhite;
+    margin: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+margin: 0 auto;
+width: 50%;
+font-size: 10px;
+}
+
+.px{
+    font-size: 20px; 
+}
+
+.pt{
+    font-size: 20pt;
+}
+
+.cm{
+    font-size: 2cm;
+}
+
+.in{
+    font-size: 1in;
+}
+
+.em{
+    font-size: 1em;
+}
+
+.rem{
+    font-size: 1rem;
+}
+
+.container > div{
+    background: purple;
+    color: wheat;
+    margin-bottom:10px ;
+    padding: 10px;
+}
+
+.porcent{
+    width: 50%;
+}
+
+.vh{
+    width: 50vh;
+}
+
+.vw{
+    width: 50vw;
+}
+
+.vmax{
+    width: 50vmax;
+}
+
+.vmin{
+    width: 50vmin;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Story+Script&display=swap');
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient( rgb(41, 41, 41),rgb(82, 43, 24));
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 0px;
+}
+
+.main{
+    height: 70%;
+    width: 800px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    }
+
+.center{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.horigem{
+    width: 90%;
+    height: 80%;
+     background-color: rgba(87, 64, 37, 0.801); 
+     border-radius: 5px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(233, 228, 221);
+}
+
+.horigem h1{
+ font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.informations{
+    height: 60%;
+}
+
+.cadastro{
+    padding: 10px;
+
+    display: flex;
+    margin:10px;
+
+}
+
+.cadastro label{
+
+    margin-right: 10px;
+}
+
+.g-btn{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn{
+    margin-bottom: 10px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgba(61, 60, 60, 0.979) ;
+     font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+

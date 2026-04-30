@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 100VW;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+}
+
+.centro{
+    width:20%;
+    height: 70%;
+    background-color: rgb(46, 45, 45);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil{
+    width: 70%;
+    height: 25%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.perfil h4 {
+    color: greenyellow;
+    padding:5px;
+}
+
+.perfil h3{
+    font-size: 20px;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    display: flex;
+
+    
+}
+
+.info{
+    width: 100%;
+    height: 30%;
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+.name{
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.baixo{
+    width: 90%;
+    height: 60%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+
+}
+
+.btn-contats{
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn{
+    width: 85%;
+    padding:25px;
+    height:40px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(66, 66, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,28 @@
+
+/* 
+p{
+    display: inline;
+}
+
+a{
+    display: block;
+    margin: 10px 0;
+} */
+
+.block{
+    padding: 5px;
+    margin: 16px 0;
+    display: block;
+}
+
+.inline{
+    padding: 5px;
+    margin: 16px 0;
+    display: inline;
+}
+
+.inline-block{
+    padding: 5px;
+    margin: 16px 0;
+    display: inline-block;
+}

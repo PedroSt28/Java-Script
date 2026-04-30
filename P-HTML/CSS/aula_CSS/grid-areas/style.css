@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:100px repeat(2, 50vh) 100px;
+    grid-template-areas: " header header header"  "aside main main" "aside main main" "footer footer footer"; 
+}
+
+header{
+    background-color: darkgoldenrod;
+    grid-area: header;
+}
+
+main{
+    background-color: blue;
+    grid-area: main;
+}
+
+aside{
+    background-color: rgb(74, 21, 128);
+    grid-area: aside;
+}
+
+footer{
+    background-color: green;
+    grid-area: footer;
+}
+
+header, main, aside, footer{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

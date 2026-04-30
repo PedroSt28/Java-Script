@@ -1,0 +1,108 @@
+.destinys{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto ;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(210, 210, 224);
+    border-radius: 10px;
+    border: 1px solid rgb(13, 136, 136);
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_foto{
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.card_title{
+    text-align: center;
+    font-size: 1.25em;
+    color: rgb(67, 67, 218);
+}
+
+.cards_infos , .card-price{
+    margin-left:1.5em ;
+}
+
+.cards_infos{
+    list-style: none;
+}
+
+.info{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card-price span{
+    font-size: 1.5em;
+    font-weight: bold;
+    color:rgb(67, 67, 218) ;
+}
+
+@keyframes btn-higlight {
+    0% , 100%{
+        color: white;
+    }
+
+    50%{
+        color: greenyellow;
+    }
+
+}
+
+.card_button{
+
+    width: 90%;
+    padding: 5px;
+    font-size: 1.25em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(67, 67, 218);
+    color: white;
+    align-self: center;
+    margin-bottom:8px;
+    transition: background 1s infinite;
+
+}
+
+.card_button:hover{
+    background-color: rgb(38, 97, 185);
+}
+
+.info::before{
+    content: "";
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 0.25em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size:contain ;
+    background-position: center;
+}
+
+.info.passagem::before{
+    background-image: url(../images/icons/travel_24dp_5084C1_FILL0_wght300_GRAD0_opsz40.svg);
+}
+
+.info.bagagem::before{
+    background-image: url(../images/icons/luggage_24dp_5084C1_FILL0_wght300_GRAD0_opsz24.svg);
+}
+
+
+.info.hospedagem::before{
+    background-image: url(../images/icons/house_24dp_5084C1_FILL0_wght300_GRAD0_opsz24.svg);
+}

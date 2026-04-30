@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seletores</title>
+    <style>
+
+        /* seletor universal */
+        *{
+            margin: 0;
+        }
+
+        h1{
+            color: aqua;
+        }
+
+        /* seletor por id */
+        #texto{
+            letter-spacing: 3px;
+        }
+
+        .classe{
+            text-decoration: underline;
+        }
+
+        div p{
+            color: blueviolet;
+            text-transform: uppercase;
+        }
+
+        h2 + P{
+            background-color:chartreuse ;
+        }
+
+        /* seletor por atributo */
+
+        a[href*="google"]{
+            color: red;
+        }
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <h1>seletor de tag</h1>
+    <p id="texto">Texto celetor de id</p>
+    <p class="classe">Seletor de classe </p>
+
+    <div>
+        <p>Este p esta dentro de uma div</p>
+        <p>Este p esta dentro de uma div</p>
+    </div>
+
+    <div>
+        <h2>Subtitulo</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <a href="https;//"></a>
+    <a href=""></a>
+
+  </body>
+</html>
