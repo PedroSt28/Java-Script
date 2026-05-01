@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form.css">
+    <title>Todo List</title>
+  </head>
+  <body>
+    <main>
+      <h1>Task Manager ✅</h1>
+
+      <div class="container create">
+        <h3>Create Tasks</h3>
+        <form class="form" action="#" method="post">
+          <label for="task">
+            Task:
+            <input name="task" type="text" placeholder="Digite o nome da tarefa ..." />
+        </label>
+          <button class="btn" type="submit">Adicionar task</button>
+        </form>
+      </div>
+
+      <div class="container new-tasks">
+        <h3>New Tasks</h3>
+        <ul class="new task-list"></ul>
+      </div>
+
+      <div class="container completed-tasks">
+        <h3>Completed Tasks</h3>
+        <ul class="completed task-list"></ul>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

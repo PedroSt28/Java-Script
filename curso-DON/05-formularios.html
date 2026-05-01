@@ -30,9 +30,11 @@
 
         const handleSubmit = (event) => {
                     event.preventDefault()
+                    const input = document.getElementById('nome')
                     const nomeUsuario = event.target.nome.value
                     user.nome = nomeUsuario
                     console.log(user)
+                    input.value = " "
         }
 
         form.addEventListener('submit', handleSubmit)
