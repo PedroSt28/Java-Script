@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 40vw;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label for="nome">Nome:</label>
+        <input  id="nome" type="text" placeholder="ex: João da silva">
+        <button id="btn" type="submit">Enviar</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('form')
+        const user = {
+            id : 1,
+            nome : ''
+        }
+
+        const handleSubmit = (event) => {
+                    event.preventDefault()
+                    const nomeUsuario = event.target.nome.value
+                    user.nome = nomeUsuario
+                    console.log(user)
+        }
+
+        form.addEventListener('submit', handleSubmit)
+    </script>
+</body>
+</html>
