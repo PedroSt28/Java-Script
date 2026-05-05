@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 40px;
 }
 
 .img{
@@ -41,16 +42,33 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-around;
     background-color: rgb(163, 18, 18);
     height: 80%;
     width: 95%;
-    margin-top: 30px;
+    margin-top: 50px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
 }
 
 .text ul li{
     list-style: none;
     margin-top: 10px;
+}
+
+.midle{
+     display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    background-color: rgb(42, 209, 50);
+    height: 30%;
+    width: 95%;
+    margin-top: 20px;
 }
 
 .email{
@@ -61,5 +79,12 @@
     background-color: rgb(209, 137, 42);
     height: 30%;
     width: 95%;
-    margin-top: 30px;
+    margin-top: 60px;
+}
+
+.btn{
+    padding: 15px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
